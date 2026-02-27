@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap');
+
+@theme {
+  --color-cyber-purple: #a855f7;
+  --color-cyber-green: #4ade80;
+  --color-deep-black: #050505;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+}
+
+/* Efeito de granulação para dar textura de papel/luxo */
+.bg-grain {
+  filter: url(#grainy);
+  opacity: 0.05;
+}
+
+:root {
+  background-color: var(--color-deep-black);
+}
